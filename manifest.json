@@ -1,0 +1,17 @@
+{
+      "manifest_version": 2,
+      "name": "Borsalino my page",
+      "version": "1.0",
+      "description": "Brincadeira de troca de nomes.",
+      "permissions": ["<all_urls>", "activeTab"],
+      "content_scripts": [
+        {
+          "matches": [
+            "https://*/*"
+          ],
+          "js": ["app.js"]
+        }
+      ]
+
+}
+    
